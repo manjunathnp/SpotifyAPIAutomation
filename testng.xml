@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/manjunathnp/IdeaProjects/SpotifyAPIAutomation/src/test/java/com/spotify/oath2/tests/PlayListTests.java">
+        <classes>
+            <class name="com.spotify.oath2.tests.PlayListTests">
+                <methods>
+                    <include name="validatePlayListCreation"/>
+                    <include name="validateGetPlaylistDetails"/>
+                    <include name="validateUpdatePlaylistDetails"/>
+                    <include name="NTValidatePlayListCreationWithNoName"/>
+                    <include name="NTValidateUnableToCreatePLUsingInvalidToken"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
